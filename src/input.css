@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body {
+ background-color: rgb(66, 66, 66);
+    margin-top: 8vh;
+    display: flex;
+   justify-content: center; 
+    min-height: 50vh;
+   
+  }
+  
+  .center-box {
+    background-color: rgb(161, 158, 158);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgb(0, 0, 0);
+  }
+  .button {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 5px 125px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-shadow: 0 2px 4px rgb(0, 0, 0);
+  }
+  
+  .custom-button:hover {
+    background-color: #183142;
+  }
+  input{width: 480px;}
+  
+  h2{
+    font-size: 290%;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  h3{
+    font-size: 25px;
+    text-align: center;
+    word-spacing:  70px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
