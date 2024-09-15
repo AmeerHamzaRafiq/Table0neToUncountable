@@ -1,0 +1,102 @@
+/* styles.css */
+
+body.custom-bg {
+    background-color: #ffffff;
+    color: #333;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3rem;
+    padding: 0 1rem;
+  }
+  
+  .heading {
+    font-size: 2.875rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+    color: #4a5568;
+  }
+  
+  .input-container {
+    margin-bottom: 1.5rem;
+    width: 100%;
+    max-width: 28rem;
+  }
+  
+  .label {
+    font-size: 1.125rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    color: #2d3748;
+  }
+  
+  .input {
+    width: 97%;
+    border: 1px solid #e2e8f0;
+    background-color: #f9fafb;
+    color: #2d3748;
+    border-radius: 0.25rem;
+    padding: 0.5rem;
+  }
+  
+  .input:focus {
+    outline: none;
+    border-color: #3182ce;
+    box-shadow: 0 0 0 2px rgba(49, 130, 206, 0.3);
+  }
+  
+  .button-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 100%;
+    max-width: 28rem;
+  }
+  
+  .button {
+    width: 100%;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 0.75rem 1.5rem;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .button-generate {
+    background-color: #3182ce;
+    color: white;
+  }
+  
+  .button-generate:hover {
+    background-color: #2b6cb0;
+  }
+  
+  .button-clear {
+    background-color: #e53e3e;
+    color: white;
+  }
+  
+  .button-clear:hover {
+    background-color: #c53030;
+  }
+  
+  .output-container {
+    margin-top: 3rem;
+    width: 100%;
+    max-width: 28rem;
+  }
+  
+  .output-text {
+    text-align: center;
+    font-size: 1.125rem;
+    font-weight: 500;
+    color: #4a5568;
+  }
+  

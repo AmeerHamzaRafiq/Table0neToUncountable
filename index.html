@@ -4,23 +4,34 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <link href="/dist/output.css" rel="stylesheet">
+  <title>Click to Generator</title>
+  <link href="style.css" rel="stylesheet">
 </head>
 
-<body>
-  <div class="flex mt-60">
-    <h2>One to Uncountable = Table</h2>
-    <div class="center-box">
-      <label><b>Table generator</b></label>
-      <input type="number" placeholder="Enter number" id="num">
+<body class="custom-bg">
+
+  <div class="container">
+    <h2 class="heading">Table Generator</h2>
+
+    <div class="input-container">
+      <label class="label"><b>One to Uncountable </b></label>
+      <input type="number" placeholder="Enter number" id="num" class="input">
     </div>
-    <button onclick="generateTable()" class="button">Generate Table</button>
-    <button onclick="clears()" id="clear" class="button">Clear</button>
-    <div class="mt-44">
-      <h3 id="table-container"></h3>
+
+    <div class="button-container">
+      <button onclick="generateTable()" class="button button-generate">
+        Generate Table
+      </button>
+      <button onclick="clears()" id="clear" class="button button-clear">
+        Clear
+      </button>
+    </div>
+
+    <div class="output-container">
+      <h3 id="table-container" class="output-text"></h3>
     </div>
   </div>
+
   <script src="apps.js"></script>
 </body>
 
